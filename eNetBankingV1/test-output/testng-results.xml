@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="eNetBankingV1" duration-ms="32763" started-at="2020-04-16T18:11:36Z" finished-at="2020-04-16T18:12:09Z">
+    <groups>
+    </groups>
+    <test name="Banking App Test" duration-ms="32763" started-at="2020-04-16T18:11:36Z" finished-at="2020-04-16T18:12:09Z">
+      <class name="com.eNetBanking.testCases.TC_LoginPage_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eNetBanking.testCases.TC_LoginPage_01@1794d431]" name="setup" is-config="true" duration-ms="21771" started-at="2020-04-16T18:11:37Z" finished-at="2020-04-16T18:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.eNetBanking.testCases.TC_LoginPage_01@1794d431]" name="login" duration-ms="10159" started-at="2020-04-16T18:11:59Z" finished-at="2020-04-16T18:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eNetBanking.testCases.TC_LoginPage_01@1794d431]" name="teardown" is-config="true" duration-ms="0" started-at="2020-04-16T18:12:09Z" finished-at="2020-04-16T18:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.eNetBanking.testCases.TC_LoginPage_01 -->
+    </test> <!-- Banking App Test -->
+  </suite> <!-- eNetBankingV1 -->
+</testng-results>
